@@ -3,7 +3,7 @@ entries:
   Helm:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-11T14:06:44.8294436+08:00"
+    created: "2021-08-11T15:01:25.219467+08:00"
     dependencies:
     - condition: installToggle.backend
       name: backend
@@ -18,4 +18,4 @@ entries:
     urls:
     - Helm-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-11T14:06:44.8266825+08:00"
+generated: "2021-08-11T15:01:25.2177801+08:00"
