@@ -1,14 +1,8 @@
 ## Introduction
 
-This is the sample chart of my [Helm practice]().
+This is the sample Chart for learning and practicing Helm.
 
 ## Prerequisites
 
 - Kubernetes 1.21+
 - Helm v3+
-
-## Install
-
-```s
-$ helm install demo-k8s-release karatejb/helm-chart-sample -n demo-k8s
-```
