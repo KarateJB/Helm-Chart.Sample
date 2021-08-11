@@ -1,9 +1,9 @@
 apiVersion: v1
 entries:
-  Helm:
+  helm-chart-sample:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2021-08-11T15:01:25.219467+08:00"
+    created: "2021-08-11T17:34:01.5678051+08:00"
     dependencies:
     - condition: installToggle.backend
       name: backend
@@ -12,10 +12,10 @@ entries:
       name: web
       repository: ""
     description: A Helm chart for Kubernetes
-    digest: 4732bd33afbe2d2dd1ee088477d234397e95cd07537d7bb6aec7f5e05f14fbbd
-    name: Helm
+    digest: 7e2bebefddcabb264a0c4c99e08f8878c07bf26eda5dbb604c246593becfae8f
+    name: helm-chart-sample
     type: application
     urls:
-    - Helm-0.1.0.tgz
+    - helm-chart-sample-0.1.0.tgz
     version: 0.1.0
-generated: "2021-08-11T15:01:25.2177801+08:00"
+generated: "2021-08-11T17:34:01.5507206+08:00"
